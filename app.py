@@ -9,7 +9,7 @@ def spoiler():
 def home():
     return render_template('home.html')
 
-@app.route('/bootstrap')
+@app.route('/tribute')
 def bootstrap():
     return render_template('signin.html')
     
